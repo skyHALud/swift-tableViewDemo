@@ -13,6 +13,7 @@
 		ED05489E1A171E9A009E767E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED05489D1A171E9A009E767E /* Images.xcassets */; };
 		ED0548A11A171E9A009E767E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED05489F1A171E9A009E767E /* LaunchScreen.xib */; };
 		ED0548AD1A171E9A009E767E /* tableViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0548AC1A171E9A009E767E /* tableViewDemoTests.swift */; };
+		ED0548B71A172030009E767E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0548B61A172030009E767E /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		ED0548A61A171E9A009E767E /* tableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0548AB1A171E9A009E767E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED0548AC1A171E9A009E767E /* tableViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewDemoTests.swift; sourceTree = "<group>"; };
+		ED0548B61A172030009E767E /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				ED0548961A171E9A009E767E /* AppDelegate.swift */,
 				ED0548981A171E9A009E767E /* ViewController.swift */,
 				ED05489A1A171E9A009E767E /* Main.storyboard */,
+				ED0548B61A172030009E767E /* UserCell.swift */,
 				ED05489D1A171E9A009E767E /* Images.xcassets */,
 				ED05489F1A171E9A009E767E /* LaunchScreen.xib */,
 				ED0548941A171E9A009E767E /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				ED0548991A171E9A009E767E /* ViewController.swift in Sources */,
 				ED0548971A171E9A009E767E /* AppDelegate.swift in Sources */,
+				ED0548B71A172030009E767E /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
